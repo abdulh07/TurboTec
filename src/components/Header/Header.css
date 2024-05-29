@@ -1,0 +1,30 @@
+.navbar-brand {
+    @media (max-width: 2400px) and (min-width: 991.99px){
+       display: none;
+    }
+}
+.navbar-brand-tech{
+    @media (max-width: 991px){
+       display: none;
+    }
+}
+.menu-bar{
+    background-color: #F8F9FA !important;
+    margin-left: 10px !important;
+    width: 30% !important;
+    height: 100% !important;
+    font-weight: 700;
+    cursor: pointer;
+    /* text-align: center; */
+    
+}
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    margin: 0 px, 10px;
+}
+.menu-item , span{
+    padding: 10px;
+    
+}
